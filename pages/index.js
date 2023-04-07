@@ -6,7 +6,7 @@ export default function Home() {
     <main>
       <Banner />
       <Wrapper>
-        <div className="text-center max-w-[800px]">
+        <div>
           <div>Explore Cookbook</div>
         </div>
       </Wrapper>
