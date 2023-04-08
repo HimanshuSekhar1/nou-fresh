@@ -4,8 +4,7 @@ import Wrapper from './Wrapper'
 function Footer() {
   return (
     <footer className="text-gray-600 body-font">
-      <div className="bg-white">
-    <div className="container py-6 sm:flex-row flex-col w-full max-w-[1280px] px-5 md:px-10 mx-auto h-[60px] flex justify-between items-center">
+    <div className="container  sm:flex-row flex-col w-full max-w-[1280px] px-5 md:px-10 mx-auto h-[60px] flex justify-between items-center">
       <a className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900 space-x-3" href='/'>
         <img src='/logoIcon.svg' className='w-[50px] md:w-[50px] cursor-pointer'/>
         <img src='/logo.svg' className='w-[80px] md:w-[110px] cursor-pointer'/>
@@ -13,7 +12,7 @@ function Footer() {
       <p className="text-sm text-gray-500 sm:ml-6 sm:mt-0 mt-4">© 2023 NouFresh —
         <a href="https://github.com/HimanshuSekhar1" rel="noopener noreferrer" className="text-gray-600 ml-1" target="_blank">@HimanshuSekhar1</a>
       </p>
-      <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+      <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start pb-5">
         <a className="text-black hover:text-gray-400 cursor-pointer">
           <svg fill="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-5 h-5" viewBox="0 0 24 24">
             <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
@@ -38,7 +37,6 @@ function Footer() {
         </a>
       </span>
     </div>
-  </div>
 </footer>
   )
 }
