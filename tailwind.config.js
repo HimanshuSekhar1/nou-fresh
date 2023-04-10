@@ -11,7 +11,8 @@ module.exports = {
   theme: {
     fontFamily: {
       oswald: "Oswald, sans-serif",
-      urbanist: "Urbanist, sans-serif"
+      urbanist: "Urbanist, sans-serif",
+      bubblegum: 'Bubblegum Sans, cursive'
     },
     extend: {},
   },

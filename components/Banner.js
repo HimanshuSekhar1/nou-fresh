@@ -10,7 +10,7 @@ function Banner() {
         />
         <div className='absolute top-1/2 w-full text-center'>
           <p className='text-sm sm:text-lg'>this is my banner center </p>
-          <button className='bg-[#AEF359] px-10 py-4 my-4 shadow-md rounded-full hover:shadow-xl font-bold active:scale-90 transition duration-150'>View our menu</button>
+          <button className='bg-[#AEF359] px-10 py-4 my-4 shadow-md rounded-full text-black text-lg font-medium transition-transform active:scale-95 mb-3 hover:opacity-75'>View our menu</button>
         </div>
     </div>
     
