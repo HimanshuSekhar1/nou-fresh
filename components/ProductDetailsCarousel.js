@@ -11,13 +11,13 @@ function ProductDetailsCarousel() {
             showIndicators={false}
             showStatus={false}
             thumbWidth={60}
+            className='productCarousel'
             
         >
             <img src='/bell pepper.jpg' />
-            {/* <img src='/bell pepper.jpg' />
-            <img src='/cinnamon.jpg' />
+            <img src='/tomato.jpg' />
             <img src='/eggs.jpg' />
-            <img src='/spaghetti.jpg' /> */}
+            <img src='/cinnamon.jpg' />
         </Carousel>
     </div>
   )
