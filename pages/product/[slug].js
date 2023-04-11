@@ -85,7 +85,7 @@ function ProductDetails() {
                   <li>Serve hot with naan, roti, or rice.</li>
               </div>
 
-              <button className='w-full py-4 rounded-full bg-[#AEF359] text-lg font-medium transition-transform active:scale-95 flex items-center justify-center gap-2 mb-5 hover:opacity-75'>
+              <button className='w-full py-4 rounded-full bg-black text-white text-lg font-medium transition-transform active:scale-95 flex items-center justify-center gap-2 mb-5 hover:opacity-75'>
                 Add to cart
                 <BsCart />
               </button>

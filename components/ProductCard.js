@@ -5,7 +5,7 @@ import React from 'react'
 function ProductCard() {
   return (
     <div className='relative transform overflow-hidden bg-white cursor-pointer hover:scale-105 duration-150'>
-      <a href='/'>
+      <a href={'/category/$p.slug'}>
         <img src='/Book1.svg' className='rounded-2xl shadow-md'/>
       </a>
       <div className='absolute bottom-10 w-full pl-4'>
